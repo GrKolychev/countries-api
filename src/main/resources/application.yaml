@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: countries-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/countries-tracker
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
