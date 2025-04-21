@@ -1,10 +1,11 @@
 plugins {
-	kotlin("jvm") version "1.9.25"
-	kotlin("plugin.spring") version "1.9.25"
+	kotlin("jvm") version "2.1.20"
+	kotlin("plugin.spring") version "2.1.20"
 	id("org.springframework.boot") version "3.4.4"
 	id("io.spring.dependency-management") version "1.1.7"
 	id("nu.studer.jooq") version "8.2"
 }
+
 
 group = "com.countries-counter"
 version = "0.0.1-SNAPSHOT"
